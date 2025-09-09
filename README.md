@@ -6,7 +6,7 @@ Este repositorio contiene mis proyectos personales, organizados en carpetas. Aqu
 
 ## Índice de Proyectos
 
-1. [Guía de Mapas](./Guia-de-mapas)
+1. [Guia de Mapas](./Guia%20de%20Mapas)
    - Descripción: Proyecto que consiste en una guía interactiva de mapas.
    - Tecnologías: (Agrega aquí las tecnologías usadas)
    - Estado: (Por ejemplo: completado / en progreso)
