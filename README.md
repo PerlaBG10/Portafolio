@@ -6,7 +6,7 @@ Este repositorio contiene mis proyectos personales, organizados en carpetas. Aqu
 
 ## Índice de Proyectos
 
-1. [Guia de Mapas](./Guia%20de%20Mapas)
+1. [Guia de Mapas](./Guia%20de%20mapas)
    - Descripción: Proyecto que consiste en una guía interactiva de mapas.
    - Tecnologías: (Agrega aquí las tecnologías usadas)
    - Estado: (Por ejemplo: completado / en progreso)
@@ -16,7 +16,7 @@ Este repositorio contiene mis proyectos personales, organizados en carpetas. Aqu
    - Tecnologías: (Agrega aquí las tecnologías usadas)
    - Estado: (Por ejemplo: completado / en progreso)
 
-3. [OtroProyecto](./OtroProyecto)
+3. [OtroProyecto](./otroProyecto)
    - Descripción: (Breve descripción del proyecto)
    - Tecnologías: (Agrega aquí las tecnologías usadas)
    - Estado: (Por ejemplo: completado / en progreso)
