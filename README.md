@@ -36,9 +36,7 @@ Si quieres conocer más sobre mis proyectos o colaborar conmigo:
 
 - **GitHub:** [PerlaBG10](https://github.com/PerlaBG10)  
 - **Correo:** cristalbg10@gmail.com  
-- **LinkedIn:** (opcional, agrega tu perfil si tienes)
 
 ---
 
-- Mantén descripciones breves y directas.
-- Agrega un **enlace en vivo** o demo de tus proyectos.
+
