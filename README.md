@@ -20,13 +20,6 @@
 - **Estado:** Completado
 - **Enlace al proyecto:** [Ir al proyecto](./Tetris)
 
----
-
-### 3. 🔧 OtroProyecto
-- **Descripción:** Breve descripción de tu proyecto.
-- **Tecnologías:** (Agrega las tecnologías usadas)
-- **Estado:** En progreso / Completado
-- **Enlace al proyecto:** [Ir al proyecto](./otroProyecto)
 
 ---
 
@@ -36,6 +29,7 @@ Si quieres conocer más sobre mis proyectos o colaborar conmigo:
 
 - **GitHub:** [PerlaBG10](https://github.com/PerlaBG10)  
 - **Correo:** cristalbg10@gmail.com  
+- **LinkedIn:** [Perla Cristal Baylon Granda](https://www.linkedin.com/in/perlabaylon/)
 
 ---
 
