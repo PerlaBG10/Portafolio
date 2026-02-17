@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_favorite"
+        android:title="Guardar en favoritos"
+        android:src="@android:drawable/btn_star_big_off">
+    </item>
+</menu>

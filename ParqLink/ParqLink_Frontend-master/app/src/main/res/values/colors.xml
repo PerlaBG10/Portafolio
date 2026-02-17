@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAzulPrincipal">#5170FD</color>
+    <color name="colorAzulClaro">#5170FD</color>
+    <color name="colorAzulSuave">#4F6DF6</color>
+    <color name="colorFondo">#FFFFFF</color>
+    <color name="colorFondoCampos">#F5F5F5</color>
+    <color name="colorTextoPrincipal">#000000</color>
+    <color name="colorTextoSecundario">#888888</color>
+    <color name="black">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+
+</resources>

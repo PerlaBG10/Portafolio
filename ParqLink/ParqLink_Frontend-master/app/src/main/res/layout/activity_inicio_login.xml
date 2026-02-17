@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:background="#4E6DF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="339dp"
+            android:layout_height="601dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/login_card_background"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="259dp"
+                android:layout_height="196dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/login_circle_background"
+                android:contentDescription="Logo de ParqLink"
+                android:padding="16dp"
+                android:src="@drawable/app_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="24dp"
+                android:text="Bienvenido a ParqLink"
+                android:textColor="@color/colorTextoPrincipal"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editext_background"
+                android:drawableStart="@drawable/icon_correo"
+                android:drawablePadding="8dp"
+                android:hint="Correo electrónico"
+                android:textColorHint="#888888"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:textColor="@color/colorTextoPrincipal" />
+
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/editext_background"
+                android:drawableStart="@drawable/icon_contrasena"
+                android:drawableEnd="@drawable/icon_contrasena_ocultar"
+                android:drawablePadding="8dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:textColor="@color/colorTextoPrincipal"
+                android:textColorHint="#888888" />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/colorAzulPrincipal"
+                android:text="Iniciar sesión"
+                android:textColor="@color/colorFondo" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/colorAzulClaro"
+                android:text="Registrarse"
+                android:textColor="@color/colorFondo" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

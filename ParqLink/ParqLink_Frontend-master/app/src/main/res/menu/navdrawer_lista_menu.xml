@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/navdrawer_profile"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/navdrawer_historial"
+        android:title="Historial de actividad" />
+    <item
+        android:id="@+id/nav_cerrarsesion"
+        android:icon="@drawable/navdrawer_cerrarsesion"
+        android:title="Cerrar sesión" />
+</menu>
+
