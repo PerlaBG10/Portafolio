@@ -1,0 +1,178 @@
+/*Estilo general*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo del cuerpo de la página fuente, color de fondo y color del texto*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    color: #333;
+}
+
+/*Encabezado colo de fondo, letra, espacio interno, que sea flexible y un espacio justificado alineados en el centro*/
+header {
+    background-color: #c53f27;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Texto del encabezado subrayado y con tamaño 30px*/
+header h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* caja de escribir con margen interno 5px*/
+.barraBuscar input {
+    padding: 5px;
+}
+
+/* botón de buscar con margen alto y ancho*/
+.barraBuscar button {
+    padding: 5px 10px;
+}
+
+/* barra de navegación con fondo de diferente color*/
+nav {
+    background: #d6553ee2;
+}
+
+/* la barra de navegación sera flexible y no estará resaltada el enlace , tendrá un espacio interno*/
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+/* Cada palabra tendra margen a la derecha de 15px*/
+nav ul li {
+    margin-right: 15px;
+}
+
+/* El enlace de cada palabra no tendra estilo, sera la letra de color blanco y un espacio interno de alto y ancho*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px;
+}
+
+/* La palabra seleccionada de la lista sera de fondo blanco y el texto de color c53f27*/
+#blog {
+    background: white;
+    color: #c53f27;
+}
+
+/* Contenedor principal */
+.contenedor {
+    margin: 10px ;
+    display: flex;
+}
+
+/* Contenedor de blog */
+.parteblog {
+    width: 70%;
+}
+
+/* Cada separador tendrá el espacio interno de 40px y margen arriba externo de 15px*/
+.separador {
+    padding: 40px;
+    margin-bottom: 15px;
+}
+
+/* Cada subtitulo tendra un fondo, color, subrayado y espacio intenro de 10px*/
+.separador h2 {
+    color: #ffffff;
+    background-color: #c53f27;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/* La lista de la información no tendrá estilo, sera flexible, con tamaño de letra 12px, un margen externo y un color*/
+.info {
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    margin: 5px 20px;
+    color: #b4401c;
+}
+
+/* cada elemento de la lista tiene un espacio externo en la parte superior 40px */
+.info li {
+    margin-right: 40px;
+}
+
+/* cada enlace esta subrayado y hereda el color de los demas*/
+.info a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* cada parado tiene un borde superior y un espacio superior de 15px*/
+.parrafo{
+    border-top: 1px solid #d94b4b;
+    padding-top: 15px;
+}
+
+/* Cada seguir leyendo... tiene un espacio y margen superior de 10px, un bloque en linea y un color seleccionado*/
+.leermas {
+    padding-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #c53f27;
+}
+
+/* Contenedor de barra lateral */
+.barraLateral {
+    width: 30%;
+}
+
+/* cada contenedor tiene un fondo y espacio interno seleccionado*/
+.separador2 {
+    background: #ffdcdb;
+    padding: 10px;
+}
+
+/* Cada subtítulo tiene un fondo, espacio, margen superior y subrayado seleccionado*/
+.separador2 h3 {
+    background: #ffb6b6;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* Cada elemento no tiene estilo*/
+.separador2 ul {
+    list-style: none;
+}
+
+/* Cada elemento tiene un espacio interno de 5px*/
+.separador2 ul li {
+    padding: 5px 0;
+}
+
+/* cada en elemento de la lista cambiara de color cuando el ratón este sobre el elemento*/
+.separador2 ul li:hover{
+    background-color: #fa7474d2;
+}
+
+/* Cada enlace no tiene estilo y el texto es negro*/
+.separador2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Pie de página centrado, alineado, con color y fondo*/
+footer {
+    background: #c53f27;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
